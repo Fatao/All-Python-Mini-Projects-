@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 #  url here
-url = 'https://portal.ucc.edu.gh'
+url = 'https://example.com'
 
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
